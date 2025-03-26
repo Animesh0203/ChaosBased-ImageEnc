@@ -1,38 +1,20 @@
-pillow
-numpy
-matplotlib
-tkinter
-streamlit
-os
-base64
-io
 # Core requirements
 streamlit==1.35.0
 Pillow==10.3.0
 numpy==1.26.4
-tensorflow==2.16.1
+tensorflow-cpu==2.16.1  # Use CPU version for easier deployment
 
 # Cryptography and security
 cryptography==42.0.5
 pycryptodome==3.20.0
 
-# Data processing and utilities
+# Data processing
 pandas==2.2.2
 scipy==1.13.0
 
-# Image processing
-opencv-python==4.9.0.80
+# Image processing (remove opencv if not absolutely needed)
+# opencv-python-headless==4.9.0.80  # Headless version for servers
 imageio==2.34.1
 
-# Chaotic algorithms support
-numba==0.59.1
-
-# Optional but recommended
-python-dotenv==1.0.1  # For environment variables
-tqdm==4.66.2  # For progress bars
-streamlit-autorefresh==0.3.1  # For rate limiting
-
-# Development tools (optional)
-pytest==8.1.1
-black==24.3.0
-flake8==7.0.0
+# Python version specific
+python>=3.8,<3.12  # Streamlit currently works best with Python 3.8-3.11
