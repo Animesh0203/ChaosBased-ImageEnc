@@ -7,4 +7,33 @@ streamlit
 os
 base64
 io
+# Core requirements
+streamlit==1.35.0
+Pillow==10.3.0
+numpy==1.26.4
+tensorflow==2.16.1
 
+# Cryptography and security
+cryptography==42.0.5
+pycryptodome==3.20.0
+
+# Data processing and utilities
+pandas==2.2.2
+scipy==1.13.0
+
+# Image processing
+opencv-python==4.9.0.80
+imageio==2.34.1
+
+# Chaotic algorithms support
+numba==0.59.1
+
+# Optional but recommended
+python-dotenv==1.0.1  # For environment variables
+tqdm==4.66.2  # For progress bars
+streamlit-autorefresh==0.3.1  # For rate limiting
+
+# Development tools (optional)
+pytest==8.1.1
+black==24.3.0
+flake8==7.0.0
