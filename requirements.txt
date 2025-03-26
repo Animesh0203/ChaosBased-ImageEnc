@@ -1,0 +1,10 @@
+pillow
+numpy
+matplotlib
+histogram
+tkinter
+streamlit
+os
+base64
+io
+
