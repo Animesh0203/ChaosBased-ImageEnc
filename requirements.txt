@@ -1,10 +1,10 @@
 # Core requirements
 streamlit==1.35.0
 Pillow==10.3.0
-numpy==1.26.4
-tensorflow-cpu==2.16.1  # Use CPU version for easier deployment
+numpy==2.0.0  # Updated for Python 3.12 compatibility
+tensorflow-cpu==2.16.1
 
-# Cryptography and security
+# Cryptography
 cryptography==42.0.5
 pycryptodome==3.20.0
 
@@ -12,9 +12,7 @@ pycryptodome==3.20.0
 pandas==2.2.2
 scipy==1.13.0
 
-# Image processing (remove opencv if not absolutely needed)
-# opencv-python-headless==4.9.0.80  # Headless version for servers
+# Image processing
 imageio==2.34.1
 
-# Python version specific
-python>=3.8,<3.12  # Streamlit currently works best with Python 3.8-3.11
+# Remove python version constraint (let the platform handle it)
