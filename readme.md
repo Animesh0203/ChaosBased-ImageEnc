@@ -15,22 +15,6 @@ Copy this project folder into your project workspace. Open the GUI.py file in th
 You will get some errors as many libraries will be unavailable. Libraries required to
 run this code are matplotlib, pillow, numbpy, histogram, tkinter
 
-### Built With
-* ###### Pycharm IDE
-* ###### matplotlib
-* ###### numpy
-* ###### Tkinter library
-* ###### pillow
-
-
-### Author
-* ###### Ankit Kumar
-* ###### Aditya Prakash
-* ###### [Ghulam Khan](http://github.com/waynetech)
-
-### License
-This project is free to use and modify
-
 
 ### Notes:
 * Allowed image formats are .jpeg and .png. User can select any of the mentioned image format.
