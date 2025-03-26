@@ -1,7 +1,6 @@
 pillow
 numpy
 matplotlib
-histogram
 tkinter
 streamlit
 os
